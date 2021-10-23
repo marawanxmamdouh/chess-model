@@ -54,3 +54,5 @@ model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accur
 history = model.fit(training_set,
                     epochs=epochs,
                     validation_data=validation_set)
+
+
